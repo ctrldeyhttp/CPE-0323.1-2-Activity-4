@@ -27,7 +27,7 @@ loop_multiply:
     ; Print the output message
     lea dx, output
     mov ah, 09h
-    int 21h                ; Display the string "Product is: "
+    int 21h                ; Display the string "Product (dec) is: "
 
     lea dx, numStr
     mov ah, 09h
